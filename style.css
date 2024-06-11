@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(0, 0%, 8%);
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color:  hsl(0, 0%, 8%) ;
+    justify-content: center;
+}
+
+.sub-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    background-color: hsl(0, 0%, 12%);
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.image-container{
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+}
+.image-container img{
+    border-radius: 50%;
+}
+.image-heading{
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 0px;
+    padding: 10px;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    margin: 0px;
+}
+.image-head{
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    padding:0px;
+    margin-left: 20px;
+}
+
+.sub1-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: warp;
+    padding: 10px;
+    align-items: center;
+}
+
+.sub1-container p{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter",sans-serif;
+}
+
+.btn-buttons{
+    justify-content: center;
+    background-color:hsl(0, 0%, 20%);
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    font-family: "Inter",sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.btn-buttons:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+
+}
